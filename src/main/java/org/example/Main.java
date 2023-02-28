@@ -10,5 +10,9 @@ public class Main {
         float c = (float) a / b;
         System.out.println("resultat : " + c);
 
+        boolean isCodingJava = false;
+        // Inversion de la valeur, passage de false à true
+        isCodingJava = !isCodingJava;
+
     }
 }
